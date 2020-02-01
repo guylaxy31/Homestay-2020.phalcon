@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 100%;
+    height: 220px;
+    margin: auto;
+    background: #FFF;
+}
+
+.login-sys {
+    margin-top: -6em;
+    margin-right: 2em;
+    font-size: 0.8em !important;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.login-txt a {
+    color: #000;
+}
+
+.login-txt a:hover {
+    color: rgb(163, 163, 163);
+}
+
+.regis-txt a {
+    color: #000;
+}
+
+.regis-txt a:hover {
+    color: rgb(163, 163, 163);
+}
+.drop-txt-size a{
+    font-size: 1em !important; 
+}
+
+.username-login a {
+    font-size:1.2em;
+    color: rgb(136, 98, 49);
+    transition: .1s;
+}
+
+.username-login a:hover {
+    color: rgb(172, 140, 99);
+    transition: .1s;
+}
+
+.grid-contain-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+    color: #634A2A;
+    font-size: 70px;
+}
+
+.header-desc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #7D6E5A;
+    cursor: default;
+    margin-top: -20px;
+}
+
+#star-icon {
+    width: 100px;
+    margin-bottom: -10px;
+}
+
+.admin-tool a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.admin-tool a:hover {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background: #362917;
+    text-align: center;
+}
+
+.contain-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-menu a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #FFF;
+    transition: .3s;
+}
+
+.nav-menu a:hover {
+    text-decoration: none;
+    color: #FCBD6A;
+    transition: .3s;
+}
+
+.container {
+    max-width: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 272px;
+    background: #362917;
+    margin-top: 50px;
+}
+
+.grid-contain-footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    text-align: center;
+    padding-top: 62px;
+    height: 100%;
+}
+
+.sub-zone {
+    padding: 20px;
+}
+
+.footer-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+    color: #DDAF73;
+    font-size: 40px;
+}
+
+.footer-desc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #C2B19B;
+    cursor: default;
+    margin-top: -13px;
+}
+
+.footer-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #E8D5B9;
+    font-weight: bold;
+}
+
+#sub-email {
+    margin-top: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    border: none;
+    width: 348px;
+    height: 48px;
+    border-radius: 64px;
+    font-size: 16px;
+    text-align: center;
+    color: #B1B1B1;
+    background-color: #261D11;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sub-submit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 110px;
+    height: 35px;
+    background-color: #E2A850;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#sub-submit:hover {
+    background-color: rgb(189, 137, 58);
+    color: #FFF;
+}
+
+.footer-info-contact img {
+    width: 1em;
+    margin: 0.4em;
+}
+
+@media screen and (max-width:1200px) {
+    .grid-contain-footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    footer {
+        height: auto
+    }
+}
+
+@media screen and (max-width:800px) {
+    .login-sys {
+        margin-top: -5.5em;
+        border-bottom: none;
+    }
+    .grid-contain-footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    footer {
+        height: auto
+    }
+}
+
+@media screen and (max-width:660px) {
+    .login-sys {
+        margin-top: -5em;
+        border-bottom: none;
+    }
+    .header-title {
+        font-size: 45px;
+    }
+    .header-desc {
+        font-size: 14px;
+    }
+    .nav-menu a {
+        font-size: 14px;
+    }
+    .admin-tool a {
+        font-size: 10px;
+    }
+    .admin-tool a:hover {
+        font-size: 10px;
+    }
+    footer {
+        height: auto
+    }
+    .grid-contain-footer {
+        grid-template-columns: 1fr;
+    }
+    .footer-title {
+        margin-bottom: 2px;
+    }
+    .footer-info {
+        margin-top: 20px;
+    }
+}

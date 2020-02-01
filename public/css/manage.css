@@ -1,0 +1,56 @@
+.db-admin {
+    background-color: #9D988E;
+}
+
+.title-adminpage {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: #696262;
+}
+
+.grid-contain-admin-form {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.admin-form-aside {
+    text-align: right;
+    line-height: 1.8em;
+}
+
+.admin-form-aside img {
+    width: 1.4em;
+}
+
+.admin-form-bside {
+    text-align: left;
+}
+
+.width-resize {
+    width: 5em;
+}
+
+.width-speci {
+    max-width: 20rem;
+}
+
+.table-title {
+    color: rgb(156, 156, 156);
+}
+
+.text-wid {
+    width: auto;
+    word-break: break-all;
+}
+
+.btn-edit a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+    .p-2 {
+        font-size: 0.7em;
+    }
+}
